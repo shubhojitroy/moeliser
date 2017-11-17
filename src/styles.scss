@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import "./assets/style/base/variables";
+@import "./assets/style/base/flexbox";
+@import "./assets/style/modules/html";
+@import "./assets/style/modules/page-template";
+@import "./assets/style/modules/navigation";
+@import "./assets/style/modules/hr";
+@import "./assets/style/modules/well-bg";
+@import "./assets/style/modules/footer";
+@import "./assets/style/modules/anchor";
+@import "./assets/style/modules/row";
+@import "./assets/style/modules/disclaimer";
+@import "./assets/style/modules/heading";
+@import "./assets/style/modules/stepper";
+@import "./assets/style/modules/radio";
+@import "./assets/style/modules/btn";
+@import "./assets/style/modules/notification";
+@import "./assets/style/modules/floatalert";
+@import "./assets/style/modules/mat-card";
+@import "./assets/style/modules/code";

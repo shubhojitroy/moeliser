@@ -1,0 +1,26 @@
+.footer, .docs-footer {
+  background-color: #58595b;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.docs-footer {
+  margin-top: 40px;
+  font-size: 12px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+span.mat-button-wrapper {
+  font-size: .71rem;
+  letter-spacing: .1257em;
+}
+
+.fcontainer{
+  width: 75%;
+  display:flex;
+  margin: 0 auto;
+  justify-content: space-between;
+}

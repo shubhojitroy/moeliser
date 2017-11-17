@@ -1,0 +1,29 @@
+<mo-header></mo-header>
+<div class='container'>
+  <br>
+  <mat-card>
+    <mat-card-content id="print-section">
+      <h3>Confirmation and Payment Instructions</h3>
+      <p>
+        You should submit your BPAY payment immediately using the Biller Code and Reference provided below. The time of your application will be the time at which the Registry has received both your valid online Application and your BPAY payment.
+      </p>
+      <p>
+        Your application monies must be received by BPAY on Wednesday, 29th November 2017 before 5:00pm (Sydney time).
+      </p>
+      <p>
+        <strong>
+          Application Payment must be received by the Registry by BPAY® by 5:00pm (Sydney time) on 29th of November 2017
+        </strong>.
+      </p>
+      <p>
+        You should check the processing cut-off time for BPAY® transactions with your bank, credit union or building society to ensure your payment will be received by the Registry in time.
+      </p>
+      <hr class="hr__separator">
+      <div class="float-container">
+        <button mat-raised-button (click)="print()" flex start><i class="material-icons">local_printshop</i>&nbsp;PRINT</button>
+        <button mat-raised-button [routerLink]="['/landingpage']" flex end>CLOSE<i class="material-icons">close</i></button>
+      </div>
+    </mat-card-content>
+  </mat-card>
+</div>
+<mo-footer></mo-footer>

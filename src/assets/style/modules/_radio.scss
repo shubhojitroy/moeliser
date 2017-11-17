@@ -1,0 +1,9 @@
+.mat-radio-button.mat-accent .mat-radio-inner-circle {
+  background-color: #00a18d;
+}
+.mat-radio-button.mat-accent.mat-radio-checked .mat-radio-outer-circle {
+  border-color: #00a18d;
+}
+.mat-card--hasHoverShadow {
+    transition: box-shadow .25s cubic-bezier(.4,0,.2,1),transform .25s cubic-bezier(.4,0,.2,1);
+}

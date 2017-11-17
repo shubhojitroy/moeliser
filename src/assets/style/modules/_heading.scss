@@ -1,0 +1,53 @@
+.mat-toolbar{
+  flex-direction:row;
+}
+.docs-navbar-header {
+  border-top: 5px solid #eef9fd;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 8px 16px 0;
+  justify-content: space-between;
+}
+.fill-remaining-space{
+  flex: 1 1 auto;
+}
+.docs-navbar-header {
+  box-shadow: 0 2px 0 0 #ffffff inset, 0 1px 3px 0 #c3c3c3;
+}
+.heading {
+  color: #3d628c;
+  line-height: 1em;
+  vertical-align: baseline;
+  text-transform: uppercase;
+}
+.lead {
+  font-size: 1.11rem;
+  color: #3d628c;
+  line-height: 1em;
+  vertical-align: baseline;
+  margin: 2rem 0 1rem 0;
+}
+.mat-card-subtitle {
+  font-size:.73rem;
+}
+.hcontainer{
+  width: 75%;
+  display:flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  line-height: normal;
+}
+.fixed-top {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+  background-color: #ffffff;
+}
+

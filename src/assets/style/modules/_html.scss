@@ -1,0 +1,26 @@
+html {
+  background: #ffffff;
+  position: relative;
+  min-height: 100%;
+}
+body{
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  color: #476978;
+  font-size: 1em;
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  line-height: 1.618em;
+}
+.docs-app-background{
+  background: #fafafa;
+}
+
+.container {
+  padding: 120px 15px 20px;
+  max-width: 75%;
+  margin: 0 auto;
+}
+
