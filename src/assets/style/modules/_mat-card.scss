@@ -14,3 +14,9 @@
   color: #476978;
   line-height:1.377em;
 }
+
+@media screen and (min-width: 240px) and (max-width: 479px){
+    .mat-card-subtitle {
+        font-size: .6723em;
+    }
+}
