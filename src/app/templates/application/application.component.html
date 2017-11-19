@@ -23,8 +23,28 @@
         This Application Form is only available to persons within Australia. The Presentation contains information relevant to a decision to invest in Redcape and you should read the entire Presentation carefully before applying.
       </p>
       <hr class="hr__separator">
-      <p>
-      </p>
+      <div class="form-container">
+          <form class="form-container" [formGroup]="ua">
+            <mat-form-field hintLabel="Max 5 digits"
+              [hideRequiredMarker]="ua.value.hideRequired"
+              [floatPlaceholder]="ua.value.floatPlaceholder">
+              <input matInput #input maxlength="5" 
+              type="number" placeholder="Units applied for" required />
+              <mat-hint align="end">{{input.value?.length || 0}}/5</mat-hint>
+            </mat-form-field>            
+
+            <mat-form-field>
+              <input matInput placeholder="Issue price per Unit:" type="number" class="number-alignment">
+              <span matPrefix>A$&nbsp;</span>
+              <span matSuffix>.00</span>
+            </mat-form-field>
+
+            <mat-form-field>
+              <input matInput placeholder="Application Payment based on number of units applied" type="number">
+              <span matPrefix>A$&nbsp;</span>
+            </mat-form-field>
+          </form>
+        </div>
       <hr class="hr__separator">
       <p>
         In order to obtain payment instructions to complete your Application, please click on the Submit button. This will take you to a confirmation page and provide BPAY payment details.

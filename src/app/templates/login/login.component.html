@@ -4,8 +4,15 @@
   <mat-card>
     <mat-card-content>
       <h3>Enter Your Priority Code&nbsp;<span style="color:#ff0000;">*</span></h3>
-      <p>
-      </p>
+      <div class="form-container">
+        <form class="form-container" [formGroup]="pc">
+          <mat-form-field
+            [hideRequiredMarker]="pc.value.hideRequired"
+            [floatPlaceholder]="pc.value.floatPlaceholder">
+          <input matInput placeholder="Priority Code" required />
+          </mat-form-field>
+        </form>
+      </div>
       <span style="color:#ff0000;">*</span>&nbsp;Indicates a manadatory field.
       <hr class="hr__separator">
       <div class="float-container">
